@@ -68,7 +68,7 @@ public class Menu : MonoBehaviour
         RectTransform rt = Menu.GetComponent<RectTransform>();
 
         if(Menu.name.Equals("Menu")){
-            rt.SetLocalPositionAndRotation(new Vector3(-227, -37.5f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+            rt.SetLocalPositionAndRotation(new Vector3(-350, 147f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         } else {
             rt.SetLocalPositionAndRotation(this.gameObject.transform.localPosition + new Vector3(128/2 + 10,
                                         ((1.5f - SubMenus.IndexOf(Menu)) * spacePerButton), 0.0f),
